@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import { useState } from "react";
 
 import * as S from "./styled";
 
@@ -7,12 +7,12 @@ import { Menu } from "../../components/Menu";
 
 import logo from "../../assets/images/logo.png";
 
-type productProps = {
-  name: string;
-  price: string;
-  priceOffer: string;
-  description: string;
-};
+// type productProps = {
+//   name: string;
+//   price: string;
+//   priceOffer: string;
+//   description: string;
+// };
 
 function CreateProductPage() {
   const listProducts: any[] = [];
